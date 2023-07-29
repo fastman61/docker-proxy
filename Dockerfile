@@ -1,10 +1,9 @@
 # syntax=docker/dockerfile:labs
 
-FROM --platform=$TARGETPLATFORM ubuntu
+FROM --platform=$TARGETPLATFORM alpinelinux/docker-cli
 
 RUN set -x \
-    && apt-get update \
-    && apt-get install bash socat
+    && apk add --no-cache bash socat
 
 COPY docker-entrypoint.sh /docker-entrypoint.sh
 

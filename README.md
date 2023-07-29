@@ -2,4 +2,4 @@
 
 ## Why
 
-Ubuntu version of shipyard/docker-proxy
+shipyard/docker-proxy with docker-cli
