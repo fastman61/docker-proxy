@@ -3,7 +3,8 @@
 FROM --platform=$TARGETPLATFORM ubuntu
 
 RUN set -x \
-    && apk add --no-cache bash socat
+    && apt-get update \
+    && apt-get install bash socat
 
 COPY docker-entrypoint.sh /docker-entrypoint.sh
 
