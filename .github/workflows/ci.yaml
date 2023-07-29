@@ -23,6 +23,6 @@ jobs:
     - name: Build Docker Image
       run: |
         docker buildx build \
-          -t khs1994/docker-proxy \
+          -t aliyildiz/docker-proxy \
           --platform linux/arm,linux/arm64,linux/amd64 \
           --push .

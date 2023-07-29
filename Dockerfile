@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:labs
 
-FROM --platform=$TARGETPLATFORM alpine
+FROM --platform=$TARGETPLATFORM ubuntu
 
 RUN set -x \
     && apk add --no-cache bash socat
