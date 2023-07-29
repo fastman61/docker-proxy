@@ -1,5 +1,5 @@
 # REBUILD shipyard/docker-proxy
 
-## why
+## Why
 
 Ubuntu version of shipyard/docker-proxy
